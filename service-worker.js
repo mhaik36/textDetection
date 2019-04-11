@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dectectcmnd/precache-manifest.23c9fb9c08786fbdc4257df78ede62bf.js"
+  "/textDetection/precache-manifest.599d2227dd299e3f583f2bbf168a7f54.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/dectectcmnd/index.html", {
+workbox.routing.registerNavigationRoute("/textDetection/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
