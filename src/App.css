@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+.upload-container {
+  margin-left: 10px;
+}
+.flex-container {
+  padding-top: 20px;
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
+.sub1 {
+ flex: 1
+}
+.sub2 {
+  flex: 2
+ }
+ .spinner {
+  display: flex;
+  align-items: center;
+ }
+ .label-flex {
+  display: flex; /* or inline-flex */
+  /* flex-direction: row; */
+  flex: 1
+}
+.label-flex-sub {
+ flex: 1
+}
+.label-flex-progress {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: space-between;
+}
+.label-flex-progress-sub {
+  flex: 1
+}
+.label-span {
+  margin-top: 20px
+}
+.document-hidden {
+  display: none;
+}
+.document-block {
+  display: block;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
